@@ -1,7 +1,7 @@
 # education-gdp-analysis-
 Analyse exploratoire du lien entre le développement économique et l'éducation des filles
 
-# 📊 Projet Data : PIB, dépenses publiques et scolarisation des filles au 21ème siècle
+# Projet Data : PIB, dépenses publiques et scolarisation des filles au 21ème siècle
 
 ## 🧠 Objectif du projet
 
@@ -17,19 +17,19 @@ L’objectif est de déterminer dans quelle mesure la richesse d’un pays et se
 
 ## 🔎 Données utilisées
 
-- 📂 Source : [Banque mondiale (World Bank Open Data)](https://data.worldbank.org/)
-- 📅 Années analysées :
+- Source : [Banque mondiale (World Bank Open Data)](https://data.worldbank.org/)
+- Années analysées :
    - **2015** : analyse avec 2 variables (PIB + taux de scolarisation des filles)
    - **2018** : analyse enrichie avec 3 variables (PIB + Taux de scolarisation + dépenses publiques en éducation)
-- 🌍 Pays : tous les pays disposant des 3 indicateurs pour 2018
-- 📦 Fichiers `.csv` utilisés :
+- Pays : tous les pays disposant des 3 indicateurs pour 2018
+- Fichiers `.csv` utilisés :
   - `API_NY.GDP.PCAP.CD_DS2_en_csv_v2.csv` : PIB/habitant
   - `API_SE.PRM.NENR.FE_DS2_en_csv_v2.csv` : taux de scolarisation des filles (primaire)
   - `API_SE.XPD.TOTL.GD.ZS_DS2_en_csv_v2.csv` : dépenses publiques en éducation
 
 ---
 
-## 📈 Étapes de l'analyse
+## Étapes de l'analyse
 
 1. **Préparation des données** :
    - Nettoyage
@@ -61,7 +61,7 @@ L’objectif est de déterminer dans quelle mesure la richesse d’un pays et se
 
 ---
 
-## 📌 Extension du projet
+## Extension du projet
 
 Avant cette analyse principale, plusieurs tests ont été menés :
 
@@ -81,7 +81,7 @@ Avant cette analyse principale, plusieurs tests ont été menés :
 
 ---
 
-## 🔄 Pour aller plus loin
+## Pour aller plus loin
 
 - Étendre à d'autres années
 - Ajouter d’autres indicateurs (IDH, taux de fécondité, égalité de genre...)
